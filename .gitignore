@@ -1,0 +1,108 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+# Created by https://www.gitignore.io/api/java,gradle,intellij
+
+# IDE/Build folder
+.gradle
+build/
+
+# IntelliJ IDEA specific files
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Output directories
+out/
+target/
+
+# Generated test reports
+**/.testresults/
+
+# Eclipse specific files
+**/.settings/
+**/.project
+
+# Cache files
+**/.gradle/*
+**/.gradle/wrapper/
+
+# OS specific temporary files
+*~
+*.swp
+*.DS_Store
+*.tmp
+
+# Documentation
+**/documentation/*.md
+
+# Local development config
+*.properties
+
+# Dependency Reduced POM
+dependency-reduced-pom.xml
+
+# STS specific
+.sts4-cache/
+
+# Spring Boot DevTools 'spring-boot:run' specific
+*.pid
+
+# VSCode specific
+**/.vscode/
+
+# Local secrets
+.secrets.properties
+
+# Generated Spring Security file
+spring-security-oauth2.yml
+
+# mpeltonen/sbt-idea plugin
+.idea_modules/
+.mvn
+# atlassian-ide-plugin.xml
+atlassian-ide-plugin.xml
+
+# crashlytics for Android Studio and IntelliJ
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
+
+# NetBeans specific config file
+nbproject/
+
+# Database connection file
+*.sql
